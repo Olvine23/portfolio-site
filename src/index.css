@@ -6,6 +6,9 @@
 body{
     background-color: #0a192f;
 }
+a:hover{
+    color: #28c7fa; 
+}
 
 @layer base {
     body {

@@ -1,12 +1,15 @@
 {
   "name": "portfolio-react-app",
   "version": "0.1.0",
+  "homepage":"https://Olvine23.github.io/portfolio-site",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
     "autoprefixer": "^10.4.2",
+    "flowbite": "^1.5.2",
+    "flowbite-react": "^0.1.6",
     "postcss": "^8.4.8",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -21,7 +24,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && -d gh-pages build"
   },
   "eslintConfig": {
     "extends": [
